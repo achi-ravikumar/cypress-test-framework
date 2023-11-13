@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-18T00:17:07.092Z",
+    "end": "2022-12-18T00:17:09.968Z",
+    "duration": 2876,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "41debed8-6997-4ebe-b112-8f99792a5804",
+      "title": "",
+      "fullFile": "cypress/e2e/products.cy.js",
+      "file": "cypress/e2e/products.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "02344ecd-3e2b-42e8-9081-9696d7c44f06",
+          "title": "Base test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "home page",
+              "fullTitle": "Base test home page",
+              "timedOut": null,
+              "duration": 1265,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.homePage().login(\"standard_user\", \"secret_sauce\").validate_products_page_displayed().products_add_to_cart_highest_price().validate_highest_prices_in_cart();",
+              "err": {},
+              "uuid": "1606e9d1-7558-4f3a-a1c2-6cbcbd932482",
+              "parentUUID": "02344ecd-3e2b-42e8-9081-9696d7c44f06",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1606e9d1-7558-4f3a-a1c2-6cbcbd932482"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1265,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
